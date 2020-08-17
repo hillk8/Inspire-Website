@@ -340,4 +340,16 @@ template {
 [hidden] {
   display: none;
 }
+
+@media (max-width: 63.9375em) {
+  .hide-for-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 64em) {
+  .hide-for-desktop {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */
