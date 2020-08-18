@@ -1,0 +1,14 @@
+nav {
+    color: #D6DFDF;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding-left: 0.3125rem;
+}

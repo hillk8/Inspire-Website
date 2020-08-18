@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 0.625rem;
+    background: rgba(15, 53, 57, 0.659);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e3fff5;
+}
