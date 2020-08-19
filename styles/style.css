@@ -341,13 +341,13 @@ template {
   display: none;
 }
 
-@media (max-width: 63.9375em) {
+@media (max-width: 70.1875em) {
   .hide-for-mobile {
     display: none;
   }
 }
 
-@media (min-width: 64em) {
+@media (min-width: 70.25em) {
   .hide-for-desktop {
     display: none;
   }
@@ -399,6 +399,12 @@ nav {
   color: #D6DFDF;
 }
 
+@media (max-width: 57em) {
+  nav {
+    display: none;
+  }
+}
+
 nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -418,5 +424,17 @@ nav ul li {
   padding-left: 3.2rem;
   font-size: 1.8rem;
   text-shadow: 0px 2px 1px rgba(25, 41, 40, 0.8);
+}
+
+@media (max-width: 70.1875em) {
+  nav ul li {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 61.1875em) {
+  nav ul li {
+    font-size: 1.2rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
