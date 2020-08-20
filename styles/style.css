@@ -539,7 +539,7 @@ nav ul li {
       -ms-flex-align: center;
           align-items: center;
   height: 1038px;
-  width: 1440px;
+  width: 100%;
   background-color: #ECECEC;
 }
 
