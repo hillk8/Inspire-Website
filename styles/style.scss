@@ -4,6 +4,8 @@
 @import '../utilities/mixins';
 @import '../utilities/variables';
 
+@import '../pages/home';
+
 @import '../layout/globals';
 @import '../layout/header';
 @import '../layout/navigation';
@@ -14,7 +16,7 @@
 @import '../components/contactForm';
 @import '../components/socialMedia';
 
-@import '../pages/home';
+
 @import '../pages/aboutUs';
 @import '../pages/products';
 @import '../pages/pricing';
