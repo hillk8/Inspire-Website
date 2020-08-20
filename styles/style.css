@@ -376,6 +376,19 @@ header {
           box-sizing: border-box;
 }
 
+@media (max-width: 57em) {
+  header {
+    height: 70px;
+  }
+}
+
+@media (max-width: 39.9375em) {
+  header {
+    height: 56px;
+    padding: 0 1.895rem;
+  }
+}
+
 .logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -390,6 +403,18 @@ header {
   color: #e3fff5;
   text-shadow: 0px 2px 1px rgba(25, 41, 40, 0.8);
   margin-bottom: -0.3125rem;
+}
+
+@media (max-width: 57em) {
+  .logo {
+    font-size: 1.9rem;
+  }
+}
+
+@media (max-width: 39.9375em) {
+  .logo {
+    font-size: 1.6rem;
+  }
 }
 
 nav {
@@ -427,10 +452,30 @@ nav ul li {
 }
 
 .hero-container {
+  height: 100vh;
+  background-image: url("/inspire-img/hero-scaled.jpg");
+  background-size: cover;
+  background-position: 50%;
   overflow: hidden;
 }
 
-.hero {
-  width: 100vw;
+@media (max-width: 57em) {
+  .hero-container {
+    height: 70vh;
+    background-image: url("/inspire-img/hero-small.jpg");
+    background-size: cover;
+    background-position: 50%;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 39.9375em) {
+  .hero-container {
+    height: 45vh;
+    background-image: url("/inspire-img/hero-small.jpg");
+    background-size: cover;
+    background-position: 50%;
+    overflow: hidden;
+  }
 }
 /*# sourceMappingURL=style.css.map */

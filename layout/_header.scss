@@ -11,6 +11,15 @@ header {
     width: 100%;
     padding: 0 2.895rem;
     box-sizing: border-box;
+
+    @include breakpoint-down(small){
+        height: 70px;
+    }
+
+    @include breakpoint-down(xsmall){
+        height: 56px;
+        padding: 0 1.895rem;
+    }
 }
 
 .logo {
@@ -21,4 +30,12 @@ header {
     color: #e3fff5;
     text-shadow: 0px 2px 1px rgba(25, 41, 40, 0.8);
     margin-bottom: -0.3125rem;
+
+    @include breakpoint-down(small){
+        font-size: 1.9rem;
+    }
+
+    @include breakpoint-down(xsmall){
+        font-size: 1.6rem;
+    }
 }
