@@ -1,13 +1,13 @@
 .hero-container {
     height: 100vh;
-    background-image: url("/inspire-img/hero-scaled.jpg");
+    background-image: url("../inspire-img/hero-scaled.jpg");
     background-size: cover;
     background-position: 50%;
     overflow: hidden;
 
     @include breakpoint-down(small){
         height: 70vh;
-        background-image: url("/inspire-img/hero-small.jpg");
+        background-image: url("../inspire-img/hero-small.jpg");
         background-size: cover;
         background-position: 50%;
         overflow: hidden;
@@ -15,7 +15,7 @@
 
     @include breakpoint-down(xsmall){
         height: 45vh;
-        background-image: url("/inspire-img/hero-small.jpg");
+        background-image: url("../inspire-img/hero-small.jpg");
         background-size: cover;
         background-position: 50%;
         overflow: hidden;
