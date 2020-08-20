@@ -453,7 +453,7 @@ nav ul li {
 
 .hero-container {
   height: 100vh;
-  background-image: url("/../inspire-img/hero-scaled.jpg");
+  background-image: url("../inspire-img/hero-scaled.jpg");
   background-size: cover;
   background-position: 50%;
   overflow: hidden;
@@ -462,7 +462,7 @@ nav ul li {
 @media (max-width: 57em) {
   .hero-container {
     height: 70vh;
-    background-image: url("/../inspire-img/hero-small.jpg");
+    background-image: url("../inspire-img/hero-small.jpg");
     background-size: cover;
     background-position: 50%;
     overflow: hidden;
@@ -472,7 +472,7 @@ nav ul li {
 @media (max-width: 39.9375em) {
   .hero-container {
     height: 45vh;
-    background-image: url("/../inspire-img/hero-small.jpg");
+    background-image: url("../inspire-img/hero-small.jpg");
     background-size: cover;
     background-position: 50%;
     overflow: hidden;

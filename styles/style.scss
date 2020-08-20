@@ -4,8 +4,6 @@
 @import '../utilities/mixins';
 @import '../utilities/variables';
 
-
-
 @import '../layout/globals';
 @import '../layout/header';
 @import '../layout/navigation';
@@ -13,14 +11,12 @@
 @import '../layout/footer';
 
 @import '../pages/home';
-
-@import '../components/buttons';
-@import '../components/contactForm';
-@import '../components/socialMedia';
-
-
 @import '../pages/aboutUs';
 @import '../pages/products';
 @import '../pages/pricing';
 @import '../pages/careers';
 @import '../pages/privacyPolicy';
+
+@import '../components/buttons';
+@import '../components/contactForm';
+@import '../components/socialMedia';
