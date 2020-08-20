@@ -21,3 +21,29 @@
         overflow: hidden;
     }
 }
+
+.why-inspire {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 98px 51px 50px 51px;
+}
+
+.headline-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+    padding-right: 33px;
+}
+
+.headline {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+.headline-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
