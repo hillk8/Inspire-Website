@@ -45,5 +45,41 @@
 
 .headline-text {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     font-size: 25px;
+}
+
+.product-bio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 1038px;
+    width: 1440px;
+    background-color: #ECECEC;
+}
+
+.product-bio-track {
+    height: 411px;
+    width: 534px;
+    border: 1px solid #bdbdbd;
+}
+
+.product-bio-reliable {
+    height: 411px;
+    width: 534px;
+    border: 1px solid #bdbdbd;
+}
+
+.product-bio-everything {
+    height: 411px;
+    width: 534px;
+    border: 1px solid #bdbdbd;
+}
+
+.product-bio-advanced {
+    height: 411px;
+    width: 534px;
+    border: 1px solid #bdbdbd;
 }

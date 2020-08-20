@@ -519,6 +519,51 @@ nav ul li {
 
 .headline-text {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   font-size: 25px;
+}
+
+.product-bio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 1038px;
+  width: 1440px;
+  background-color: #ECECEC;
+}
+
+.product-bio-track {
+  height: 411px;
+  width: 534px;
+  border: 1px solid #bdbdbd;
+}
+
+.product-bio-reliable {
+  height: 411px;
+  width: 534px;
+  border: 1px solid #bdbdbd;
+}
+
+.product-bio-everything {
+  height: 411px;
+  width: 534px;
+  border: 1px solid #bdbdbd;
+}
+
+.product-bio-advanced {
+  height: 411px;
+  width: 534px;
+  border: 1px solid #bdbdbd;
 }
 /*# sourceMappingURL=style.css.map */
