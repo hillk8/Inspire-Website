@@ -543,27 +543,48 @@ nav ul li {
   background-color: #ECECEC;
 }
 
+.product-bio-card {
+  height: 180px;
+  width: 250px;
+  -webkit-box-shadow: 0px 0px 53px -25px rgba(0, 0, 0, 0.55);
+          box-shadow: 0px 0px 53px -25px rgba(0, 0, 0, 0.55);
+  background-color: #fff;
+  position: absolute;
+  margin-top: -8.8rem;
+  margin-left: 3rem;
+  z-index: 10;
+}
+
+.product-bio-card-h2 {
+  font-size: 0.875rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.product-bio-text {
+  font-size: 0.875rem;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 0.9rem 0 0.9rem;
+}
+
 .product-bio-track {
   height: 411px;
   width: 534px;
-  border: 1px solid #bdbdbd;
 }
 
 .product-bio-reliable {
   height: 411px;
   width: 534px;
-  border: 1px solid #bdbdbd;
 }
 
 .product-bio-everything {
   height: 411px;
   width: 534px;
-  border: 1px solid #bdbdbd;
 }
 
 .product-bio-advanced {
   height: 411px;
   width: 534px;
-  border: 1px solid #bdbdbd;
 }
 /*# sourceMappingURL=style.css.map */
