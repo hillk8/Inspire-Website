@@ -24,7 +24,7 @@
 
 .why-inspire {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: 98px 51px 50px 51px;
@@ -35,6 +35,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-self: flex-start;
+    flex: 1;
     padding-right: 33px;
 }
 
