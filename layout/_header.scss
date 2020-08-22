@@ -11,6 +11,7 @@ header {
     width: 100%;
     padding: 0 2.895rem;
     box-sizing: border-box;
+    z-index: 2;
 
     @include breakpoint-down(small){
         height: 70px;
