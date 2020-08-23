@@ -678,4 +678,129 @@ nav ul li {
   height: 250px;
   width: 327px;
 }
+
+.cta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 333px;
+  background-color: #518178;
+}
+
+.cta h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 44px;
+  color: #fff;
+}
+
+.cta button {
+  height: 77px;
+  width: 304px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #2B3A38;
+}
+
+.footer-row-one {
+  height: 293px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #A4D1C6;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.footer-row-one h1 {
+  font-size: 40px;
+}
+
+.footer-row-one ul {
+  line-height: 2.3;
+}
+
+.footer-row-one ul li {
+  font-size: 30px;
+  list-style-type: none;
+}
+
+.input-textbox {
+  height: 55px;
+  width: 317px;
+  border-radius: 5px;
+}
+
+.input-btn {
+  height: 63px;
+  width: 100px;
+  margin-left: -77px;
+  font-size: 36px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.footer-row-two {
+  height: 293px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #A4D1C6;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.footer-row-two h1 {
+  font-size: 40px;
+}
+
+.footer-row-two ul {
+  line-height: 2.3;
+}
+
+.footer-row-two ul li {
+  font-size: 30px;
+  list-style-type: none;
+}
 /*# sourceMappingURL=style.css.map */
