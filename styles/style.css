@@ -540,7 +540,7 @@ nav ul li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 1038px;
+  height: 100%;
   width: 100%;
   background-color: #ECECEC;
 }
@@ -573,20 +573,109 @@ nav ul li {
 .product-bio-track {
   height: 411px;
   width: 534px;
+  margin-top: 95px;
+  margin-bottom: 44px;
 }
 
 .product-bio-reliable {
   height: 411px;
   width: 534px;
+  margin-top: 95px;
+  margin-bottom: 44px;
 }
 
 .product-bio-everything {
   height: 411px;
   width: 534px;
+  margin-bottom: 77px;
 }
 
 .product-bio-advanced {
   height: 411px;
   width: 534px;
+  margin-bottom: 77px;
+}
+
+.reviews-title {
+  height: 222px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.reviews {
+  height: 317px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.review-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 250px;
+  width: 425px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.review-container:nth-child(1) {
+  margin-right: 30px;
+}
+
+.review-container:nth-child(2) {
+  margin-right: 30px;
+}
+
+.review-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 98px;
+  width: 98px;
+}
+
+.review-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 250px;
+  width: 327px;
 }
 /*# sourceMappingURL=style.css.map */
