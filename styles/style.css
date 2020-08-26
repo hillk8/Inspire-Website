@@ -754,6 +754,10 @@ nav ul li {
           align-items: center;
   height: 333px;
   background-color: #518178;
+  background-image: url(../inspire-img/stripes.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .cta h1 {
