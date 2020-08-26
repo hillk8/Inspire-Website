@@ -501,6 +501,17 @@ nav ul li {
   width: 550px;
   height: 249px;
   background: rgba(5, 99, 93, 0.69);
+  opacity: 0;
+  -webkit-transform: translateX(-20px);
+          transform: translateX(-20px);
+  -webkit-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
+}
+
+.hero-headline-appear {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
 }
 
 .hero-cta-button {
@@ -519,6 +530,17 @@ nav ul li {
   background: #fff;
   position: relative;
   right: -128px;
+  opacity: 0;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+  -webkit-transition: 0.8s all ease-in-out;
+  transition: 0.8s all ease-in-out;
+}
+
+.hero-cta-button-appear {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
 }
 
 .hero-cta-button h1 {
@@ -637,11 +659,21 @@ nav ul li {
   margin-bottom: 44px;
 }
 
+.product-bio-track img:hover {
+  width: 542px;
+  height: 361px;
+}
+
 .product-bio-reliable {
   height: 411px;
   width: 534px;
   margin-top: 95px;
   margin-bottom: 44px;
+}
+
+.product-bio-reliable img:hover {
+  width: 542px;
+  height: 361px;
 }
 
 .product-bio-everything {
@@ -650,10 +682,20 @@ nav ul li {
   margin-bottom: 77px;
 }
 
+.product-bio-everything img:hover {
+  width: 542px;
+  height: 361px;
+}
+
 .product-bio-advanced {
   height: 411px;
   width: 534px;
   margin-bottom: 77px;
+}
+
+.product-bio-advanced img:hover {
+  width: 542px;
+  height: 361px;
 }
 
 .reviews-title {
@@ -764,6 +806,7 @@ nav ul li {
   font-family: 'Roboto', sans-serif;
   font-size: 44px;
   color: #fff;
+  text-shadow: 0px 2px 1px rgba(25, 41, 40, 0.8);
 }
 
 .cta button {

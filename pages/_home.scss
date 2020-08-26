@@ -29,6 +29,14 @@
     width: 550px;
     height: 249px;
     background: rgba(5, 99, 93, 0.69);
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: 0.5s all ease-in-out;
+} 
+
+.hero-headline-appear {
+    opacity: 1;
+    transform: translateX(0px);
 }
 
 .hero-cta-button {
@@ -42,6 +50,14 @@
     background: #fff;
     position: relative;
     right: -128px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.8s all ease-in-out;
+}
+
+.hero-cta-button-appear {
+    opacity: 1;
+    transform: translateY(0px);
 }
 
 .hero-cta-button h1 {
@@ -135,12 +151,22 @@
     // border: 1px solid #bdbdbd;
 }
 
+.product-bio-track img:hover {
+    width: 542px;
+    height: 361px;
+}
+
 .product-bio-reliable {
     height: 411px;
     width: 534px;
     margin-top: 95px;
     margin-bottom: 44px;
     // border: 1px solid #bdbdbd;
+}
+
+.product-bio-reliable img:hover {
+    width: 542px;
+    height: 361px;
 }
 
 .product-bio-everything {
@@ -150,11 +176,21 @@
     // border: 1px solid #bdbdbd;
 }
 
+.product-bio-everything img:hover {
+    width: 542px;
+    height: 361px;
+}
+
 .product-bio-advanced {
     height: 411px;
     width: 534px;
     margin-bottom: 77px;
     // border: 1px solid #bdbdbd;
+}
+
+.product-bio-advanced img:hover {
+    width: 542px;
+    height: 361px;
 }
 
 .reviews-title {
@@ -226,6 +262,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 44px;
     color: #fff;
+    text-shadow: 0px 2px 1px rgba(25, 41, 40, 0.8);
 }
 
 .cta button {
