@@ -31,7 +31,7 @@ window.addEventListener('load', loadHeroCTAAppear);
 function scrollProdTrackAppear(){
     var prodTrackCard = document.querySelector('.product-track-hide');
     var prodTrackPosition = prodTrackCard.getBoundingClientRect().top;
-    var screenHeight = window.innerHeight / 1.3;
+    var screenHeight = window.innerHeight / 1.1;
 
     if(prodTrackPosition < screenHeight)
     {
@@ -46,7 +46,7 @@ window.addEventListener('scroll', scrollProdTrackAppear);
 function scrollProdReliableAppear(){
     var prodReliableCard = document.querySelector('.product-reliable-hide');
     var prodReliablePosition = prodReliableCard.getBoundingClientRect().top;
-    var screenHeight = window.innerHeight / 1.3;
+    var screenHeight = window.innerHeight / 1.1;
 
     if(prodReliablePosition < screenHeight)
     {
@@ -61,7 +61,7 @@ window.addEventListener('scroll', scrollProdReliableAppear);
 function scrollProdEverythingAppear(){
     var prodEverythingCard = document.querySelector('.product-everything-hide');
     var prodEverythingPosition = prodEverythingCard.getBoundingClientRect().top;
-    var screenHeight = window.innerHeight / 1.3;
+    var screenHeight = window.innerHeight / 1.1;
 
     if(prodEverythingPosition < screenHeight)
     {
@@ -76,7 +76,7 @@ window.addEventListener('scroll', scrollProdEverythingAppear);
 function scrollProdAdvancedAppear(){
     var prodAdvancedCard = document.querySelector('.product-advanced-hide');
     var prodAdvancedPosition = prodAdvancedCard.getBoundingClientRect().top;
-    var screenHeight = window.innerHeight / 1.3;
+    var screenHeight = window.innerHeight / 1.1;
 
     if(prodAdvancedPosition < screenHeight)
     {
