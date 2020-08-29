@@ -404,6 +404,12 @@ header {
   color: #e3fff5;
   text-shadow: 0px 2px 1px rgba(25, 41, 40, 0.8);
   margin-bottom: -0.3125rem;
+  text-decoration: none;
+}
+
+.logo :hover {
+  color: #ffffff;
+  text-shadow: 0px 2px 1px #192928;
 }
 
 @media (max-width: 57em) {
@@ -422,7 +428,6 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #D6DFDF;
 }
 
 @media (max-width: 57em) {
@@ -446,10 +451,17 @@ nav ul {
   margin-bottom: 0.375rem;
 }
 
-nav ul li {
+.nav-links {
+  color: #D6DFDF;
+  text-decoration: none;
   padding-left: 3.2rem;
   font-size: 2vw;
   text-shadow: 0px 2px 1px rgba(25, 41, 40, 0.8);
+}
+
+.nav-links :hover {
+  color: #ffffff;
+  text-shadow: 0px 2px 1px #192928;
 }
 
 .hero-container {

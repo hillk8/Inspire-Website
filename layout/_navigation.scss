@@ -1,6 +1,5 @@
 nav {
     display: flex;
-    color: #D6DFDF;
 
     @include breakpoint-down(small){
         display: none;
@@ -15,8 +14,15 @@ nav ul{
     margin-bottom: 0.375rem;
 }
 
-nav ul li {
+.nav-links {
+    color: #D6DFDF;
+    text-decoration: none;
     padding-left: 3.2rem;
     font-size: 2vw;
     text-shadow: 0px 2px 1px rgba(25, 41, 40, 0.8);
+
+        & :hover {
+            color: #ffffff;
+            text-shadow: 0px 2px 1px rgba(25, 41, 40, 1);
+        }
 }
