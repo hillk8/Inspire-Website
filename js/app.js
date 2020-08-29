@@ -85,3 +85,44 @@ function scrollProdAdvancedAppear(){
 }
 
 window.addEventListener('scroll', scrollProdAdvancedAppear);
+
+//reviews***************
+
+function scrollReviewsAliAppear(){
+    var reviewsAliCard = document.querySelector('.review-container-ali-hide');
+    var reviewsAliPosition = reviewsAliCard.getBoundingClientRect().top;
+    var screenHeight = window.innerHeight / 1.1;
+
+    if(reviewsAliPosition < screenHeight)
+    {
+        reviewsAliCard.classList.add('review-container-ali-appear');
+    }
+}
+
+window.addEventListener('scroll', scrollReviewsAliAppear);
+
+function scrollReviewsLiAppear(){
+    var reviewsLiCard = document.querySelector('.review-container-li-hide');
+    var reviewsLiPosition = reviewsLiCard.getBoundingClientRect().top;
+    var screenHeight = window.innerHeight / 1.1;
+
+    if(reviewsLiPosition < screenHeight)
+    {
+        reviewsLiCard.classList.add('review-container-li-appear');
+    }
+}
+
+window.addEventListener('scroll', scrollReviewsLiAppear);
+
+function scrollReviewsRichAppear(){
+    var reviewsRichCard = document.querySelector('.review-container-rich-hide');
+    var reviewsRichPosition = reviewsRichCard.getBoundingClientRect().top;
+    var screenHeight = window.innerHeight / 1.1;
+
+    if(reviewsRichPosition < screenHeight)
+    {
+        reviewsRichCard.classList.add('review-container-rich-appear');
+    }
+}
+
+window.addEventListener('scroll', scrollReviewsRichAppear);

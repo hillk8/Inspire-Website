@@ -828,6 +828,36 @@ nav ul li {
   font-size: 18px;
 }
 
+.review-container-ali-hide {
+  opacity: 0;
+  -webkit-transition: 0.7s all ease-in-out;
+  transition: 0.7s all ease-in-out;
+}
+
+.review-container-ali-appear {
+  opacity: 1;
+}
+
+.review-container-li-hide {
+  opacity: 0;
+  -webkit-transition: 0.7s all ease-in-out;
+  transition: 0.7s all ease-in-out;
+}
+
+.review-container-li-appear {
+  opacity: 1;
+}
+
+.review-container-rich-hide {
+  opacity: 0;
+  -webkit-transition: 0.7s all ease-in-out;
+  transition: 0.7s all ease-in-out;
+}
+
+.review-container-rich-appear {
+  opacity: 1;
+}
+
 .review-container:nth-child(1) {
   margin-right: 30px;
 }
