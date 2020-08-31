@@ -553,6 +553,7 @@ nav ul {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .footer-row-two {
@@ -684,10 +685,23 @@ nav ul {
   transition: 0.8s all ease-in-out;
 }
 
+.hero-cta-button:hover {
+  cursor: pointer;
+  color: #797979;
+}
+
 .hero-cta-button-appear {
   opacity: 1;
   -webkit-transform: translateY(0px);
           transform: translateY(0px);
+}
+
+.hero-cta-btn-text {
+  text-decoration: none;
+}
+
+.hero-cta-btn-text:hover {
+  color: #797979;
 }
 
 .hero-cta-button h1 {
@@ -697,6 +711,10 @@ nav ul {
   font-size: 40px;
   line-height: 49px;
   color: #000000;
+}
+
+.hero-cta-button h1:hover {
+  color: #797979;
 }
 
 .hero-headline h1 {
@@ -1074,10 +1092,25 @@ nav ul {
   text-shadow: 0px 2px 1px rgba(25, 41, 40, 0.8);
 }
 
-.cta button {
+.cta-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 77px;
   width: 304px;
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
+  color: #505050;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+.cta-btn :hover {
+  color: #949494;
 }
 /*# sourceMappingURL=style.css.map */
