@@ -1,0 +1,27 @@
+.about-hero-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 100vh;
+    background-image: url("../inspire-img/about-hero-scaled.jpg");
+    
+
+    // @include breakpoint-down(small){
+    //     height: 70vh;
+    //     background-image: url("../inspire-img/hero-small.jpg");
+    // }
+
+    // @include breakpoint-down(xsmall){
+    //     height: 45vh;
+    //     background-image: url("../inspire-img/hero-small.jpg");
+    // }
+}
+
+.about-hero-overlay {
+    height: 850px;
+    width: 1440px;
+    position: absolute;
+    background: rgba(17, 82, 70, 0.73); 
+}
