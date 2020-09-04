@@ -23,5 +23,23 @@
     height: 850px;
     width: 1440px;
     position: absolute;
-    background: rgba(17, 82, 70, 0.73); 
+    //background: rgba(17, 82, 70, 0.73); 
+    background: linear-gradient(to right,  rgba(0, 66, 53, 1), rgba(0, 66, 53, 0.97), rgba(12, 81, 67, 0.85),rgba(24, 81, 70, 0.8));
+}
+
+.about-hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: #E8E8E8;
+    z-index: 1;
+    width: 100vw;
+    height: 850px;
+    margin-left: -215px;
+    margin-top: -20px;
 }
