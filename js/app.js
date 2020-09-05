@@ -1,3 +1,4 @@
+//fadein class "hero-headline" on the home page
 function loadHeroHeadLineAppear(){
     var heroHeadline = document.querySelector('.hero-headline');
     var heroHeadlinePosition = heroHeadline.getBoundingClientRect().top;
@@ -11,8 +12,7 @@ function loadHeroHeadLineAppear(){
 
 window.addEventListener('load', loadHeroHeadLineAppear);
 
-//888888
-
+//fadein class "hero-cta-button" on the home page
 function loadHeroCTAAppear(){
     var heroHeadline = document.querySelector('.hero-cta-button');
     var heroHeadlinePosition = heroHeadline.getBoundingClientRect().top;
@@ -26,8 +26,7 @@ function loadHeroCTAAppear(){
 
 window.addEventListener('load', loadHeroCTAAppear);
 
-//555555555
-
+//fadein class "product-track-hide" on the home page
 function scrollProdTrackAppear(){
     var prodTrackCard = document.querySelector('.product-track-hide');
     var prodTrackPosition = prodTrackCard.getBoundingClientRect().top;
@@ -41,8 +40,7 @@ function scrollProdTrackAppear(){
 
 window.addEventListener('scroll', scrollProdTrackAppear);
 
-//666666666
-
+//fadein class "product-reliable-hide" on the home page
 function scrollProdReliableAppear(){
     var prodReliableCard = document.querySelector('.product-reliable-hide');
     var prodReliablePosition = prodReliableCard.getBoundingClientRect().top;
@@ -56,8 +54,7 @@ function scrollProdReliableAppear(){
 
 window.addEventListener('scroll', scrollProdReliableAppear);
 
-//333333333
-
+//fadein class "product-everything-hide" on the home page
 function scrollProdEverythingAppear(){
     var prodEverythingCard = document.querySelector('.product-everything-hide');
     var prodEverythingPosition = prodEverythingCard.getBoundingClientRect().top;
@@ -71,8 +68,7 @@ function scrollProdEverythingAppear(){
 
 window.addEventListener('scroll', scrollProdEverythingAppear);
 
-//22222
-
+//fadein class "product-advanced-hide" on the home page
 function scrollProdAdvancedAppear(){
     var prodAdvancedCard = document.querySelector('.product-advanced-hide');
     var prodAdvancedPosition = prodAdvancedCard.getBoundingClientRect().top;
@@ -86,8 +82,7 @@ function scrollProdAdvancedAppear(){
 
 window.addEventListener('scroll', scrollProdAdvancedAppear);
 
-//reviews***************
-
+//fadein class "eview-container-ali-hide" on the home page
 function scrollReviewsAliAppear(){
     var reviewsAliCard = document.querySelector('.review-container-ali-hide');
     var reviewsAliPosition = reviewsAliCard.getBoundingClientRect().top;
@@ -101,6 +96,7 @@ function scrollReviewsAliAppear(){
 
 window.addEventListener('scroll', scrollReviewsAliAppear);
 
+//fadein class "review-container-li-hide" on the home page
 function scrollReviewsLiAppear(){
     var reviewsLiCard = document.querySelector('.review-container-li-hide');
     var reviewsLiPosition = reviewsLiCard.getBoundingClientRect().top;
@@ -114,6 +110,7 @@ function scrollReviewsLiAppear(){
 
 window.addEventListener('scroll', scrollReviewsLiAppear);
 
+//fadein class "review-container-rich-hide" on the home page
 function scrollReviewsRichAppear(){
     var reviewsRichCard = document.querySelector('.review-container-rich-hide');
     var reviewsRichPosition = reviewsRichCard.getBoundingClientRect().top;
@@ -126,3 +123,31 @@ function scrollReviewsRichAppear(){
 }
 
 window.addEventListener('scroll', scrollReviewsRichAppear);
+
+//fadein class "about-hero-text" on the about page
+function loadAboutHeroHeadLineAppear(){
+    var aboutHeroHeadline = document.querySelector('.about-hero-text');
+    var aboutHeroHeadlinePosition = aboutHeroHeadline.getBoundingClientRect().top;
+    var screenHeight = window.innerHeight;
+
+    if(aboutHeroHeadlinePosition < screenHeight)
+    {
+        aboutHeroHeadline.classList.add('about-hero-text-appear');
+    }
+}
+
+window.addEventListener('load', loadAboutHeroHeadLineAppear());
+
+//fadein class "about-story" on the about page
+function scrollAboutStoryAppear(){
+    var aboutStoryCard = document.querySelector('.about-story');
+    var aboutStoryPosition = aboutStoryCard.getBoundingClientRect().top;
+    var screenHeight = window.innerHeight / 1.5;
+
+    if(aboutStoryPosition < screenHeight)
+    {
+        aboutStoryCard.classList.add('about-story-appear');
+    }
+}
+
+window.addEventListener('scroll', scrollAboutStoryAppear);

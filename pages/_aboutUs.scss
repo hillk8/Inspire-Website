@@ -42,4 +42,46 @@
     height: 850px;
     margin-left: -215px;
     margin-top: -20px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 1s all ease-in-out;
+}
+
+.about-hero-text-appear {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.about-story {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 593px;
+    padding-top: 70px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 1s all ease-in-out;
+    // background-color: #bbbbbb;
+}
+
+.about-story-appear {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.about-story-headline {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #3d3d3d;
+}
+
+.about-story-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #3d3d3d;
+    width: 787px;
 }
