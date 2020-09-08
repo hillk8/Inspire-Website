@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-end;
-    height: 100vh;
+    height: 95vh;
     background-image: url("../inspire-img/hero-scaled.jpg");
     
 
@@ -43,16 +43,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: -23px;
-    //position: absolute;
-    width: 534px;
+    // margin-bottom: -23px;
+    position: absolute;
+    width: 495px;
     height: 201px;
     background: #fff;
-    position: relative;
-    right: -128px;
+    // bottom: 70px;
+    // margin-bottom: 10px;
+    right: 0px;
+    overflow: hidden;
     opacity: 0;
-    transform: translateY(20px);
-    transition: 0.4s all ease-in-out;
+    transform: translateY(-20px);
+    transition: 0.8s all ease-in-out;
 
         &:hover{
             cursor: pointer;
@@ -179,7 +181,7 @@
 .product-track-hide {
     opacity: 0;
     transform: translateY(20px);
-    transition: 0.7s all ease-in-out;
+    transition: 0.4s all ease-in-out;
 }
 
 .product-track-appear {
@@ -206,7 +208,7 @@
 .product-reliable-hide {
     opacity: 0;
     transform: translateY(20px);
-    transition: 0.7s all ease-in-out;
+    transition: 0.4s all ease-in-out;
 }
 
 .product-reliable-appear {
@@ -232,7 +234,7 @@
 .product-everything-hide {
     opacity: 0;
     transform: translateY(20px);
-    transition: 0.7s all ease-in-out;
+    transition: 0.4s all ease-in-out;
 }
 
 .product-everything-appear {
@@ -258,7 +260,7 @@
 .product-advanced-hide {
     opacity: 0;
     transform: translateY(20px);
-    transition: 0.7s all ease-in-out;
+    transition: 0.4s all ease-in-out;
 }
 
 .product-advanced-appear {
@@ -293,7 +295,7 @@
 
 .review-container-ali-hide {
     opacity: 0;
-    transition: 0.7s all ease-in-out;
+    transition: 0.4s all ease-in-out;
 }
 
 .review-container-ali-appear {
@@ -302,7 +304,7 @@
 
 .review-container-li-hide {
     opacity: 0;
-    transition: 0.7s all ease-in-out;
+    transition: 0.4s all ease-in-out;
 }
 
 .review-container-li-appear {
@@ -311,7 +313,7 @@
 
 .review-container-rich-hide {
     opacity: 0;
-    transition: 0.7s all ease-in-out;
+    transition: 0.4s all ease-in-out;
 }
 
 .review-container-rich-appear {

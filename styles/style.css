@@ -616,7 +616,7 @@ nav ul {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  height: 100vh;
+  height: 95vh;
   background-image: url("../inspire-img/hero-scaled.jpg");
 }
 
@@ -672,17 +672,17 @@ nav ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: -23px;
-  width: 534px;
+  position: absolute;
+  width: 495px;
   height: 201px;
   background: #fff;
-  position: relative;
-  right: -128px;
+  right: 0px;
+  overflow: hidden;
   opacity: 0;
-  -webkit-transform: translateY(20px);
-          transform: translateY(20px);
-  -webkit-transition: 0.4s all ease-in-out;
-  transition: 0.4s all ease-in-out;
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+  -webkit-transition: 0.8s all ease-in-out;
+  transition: 0.8s all ease-in-out;
 }
 
 .hero-cta-button:hover {
@@ -841,8 +841,8 @@ nav ul {
   opacity: 0;
   -webkit-transform: translateY(20px);
           transform: translateY(20px);
-  -webkit-transition: 0.7s all ease-in-out;
-  transition: 0.7s all ease-in-out;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 
 .product-track-appear {
@@ -875,8 +875,8 @@ nav ul {
   opacity: 0;
   -webkit-transform: translateY(20px);
           transform: translateY(20px);
-  -webkit-transition: 0.7s all ease-in-out;
-  transition: 0.7s all ease-in-out;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 
 .product-reliable-appear {
@@ -908,8 +908,8 @@ nav ul {
   opacity: 0;
   -webkit-transform: translateY(20px);
           transform: translateY(20px);
-  -webkit-transition: 0.7s all ease-in-out;
-  transition: 0.7s all ease-in-out;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 
 .product-everything-appear {
@@ -941,8 +941,8 @@ nav ul {
   opacity: 0;
   -webkit-transform: translateY(20px);
           transform: translateY(20px);
-  -webkit-transition: 0.7s all ease-in-out;
-  transition: 0.7s all ease-in-out;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 
 .product-advanced-appear {
@@ -995,8 +995,8 @@ nav ul {
 
 .review-container-ali-hide {
   opacity: 0;
-  -webkit-transition: 0.7s all ease-in-out;
-  transition: 0.7s all ease-in-out;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 
 .review-container-ali-appear {
@@ -1005,8 +1005,8 @@ nav ul {
 
 .review-container-li-hide {
   opacity: 0;
-  -webkit-transition: 0.7s all ease-in-out;
-  transition: 0.7s all ease-in-out;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 
 .review-container-li-appear {
@@ -1015,8 +1015,8 @@ nav ul {
 
 .review-container-rich-hide {
   opacity: 0;
-  -webkit-transition: 0.7s all ease-in-out;
-  transition: 0.7s all ease-in-out;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 
 .review-container-rich-appear {
