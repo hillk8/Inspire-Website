@@ -35,3 +35,8 @@ animateElements(".review-container-rich-hide", "review-container-rich-appear","s
 animateElements(".about-hero-text", "about-hero-text-appear","load");
 
 animateElements(".about-story", "about-story-appear","scroll");
+
+animateElements(".about-box-right", "about-box-right-appear", "scroll");
+
+animateElements(".about-box-left", "about-box-left-appear", "scroll");
+
