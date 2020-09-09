@@ -93,7 +93,14 @@
     justify-content: center;
     align-items: center;
     height: 600px;
-    background-color: #E8E8E8;
+    background-image: url(../inspire-img/about-mission-bg4.jpg);
+    background-size: cover;
+    opacity: 0;
+    transition: 0.4s all ease-in-out;
+}
+
+.about-mission-appear {
+    opacity: 1;
 }
 
 .about-mission-text {
@@ -113,6 +120,8 @@
     font-style: normal;
     line-height: 1.5;
     color: #3d3d3d;
+    border: 1px solid #e1e1e1;
+    border-style: solid;
 }
 
 .about-mission-text h1 {
@@ -130,9 +139,9 @@
     top: 20%;
     height: 300px;
     width: 300px;
-    background: rgba(15, 53, 57, 0.4);
+    background: rgba(116, 162, 155, 0.51);
     opacity: 0;
-    transition: 0.5s all ease-in-out;
+    transition: 0.7s all ease-in-out;
 }
 
 .about-box-right-appear {
@@ -146,9 +155,9 @@ left: -10%;
 top: 3.5%;
 height: 300px;
 width: 300px;
-background: rgba(15, 53, 57, 0.4);
+background: rgba(116, 162, 155, 0.51);
 opacity: 0;
-transition: 0.5s all ease-in-out;
+transition: 0.7s all ease-in-out;
 }
 
 .about-box-left-appear {

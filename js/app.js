@@ -40,3 +40,5 @@ animateElements(".about-box-right", "about-box-right-appear", "scroll");
 
 animateElements(".about-box-left", "about-box-left-appear", "scroll");
 
+animateElements(".about-mission", "about-mission-appear", "scroll");
+
