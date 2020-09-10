@@ -1327,4 +1327,23 @@ nav ul {
   -webkit-transform: translate(-180px, -70px);
           transform: translate(-180px, -70px);
 }
+
+.about-locations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 593px;
+  padding-top: 50px;
+  background-color: #8b8b8b;
+}
 /*# sourceMappingURL=style.css.map */
