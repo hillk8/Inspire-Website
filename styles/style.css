@@ -464,6 +464,56 @@ nav ul {
   text-shadow: 0px 2px 1px #192928;
 }
 
+.cta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 333px;
+  background-color: #518178;
+  background-image: url(../inspire-img/stripes.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.cta h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 44px;
+  color: #fff;
+  text-shadow: 0px 2px 1px rgba(25, 41, 40, 0.8);
+}
+
+.cta-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 77px;
+  width: 304px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: #505050;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+.cta-btn :hover {
+  color: #949494;
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1063,56 +1113,6 @@ nav ul {
           align-items: flex-start;
   height: 250px;
   width: 327px;
-}
-
-.cta {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 333px;
-  background-color: #518178;
-  background-image: url(../inspire-img/stripes.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-.cta h1 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 44px;
-  color: #fff;
-  text-shadow: 0px 2px 1px rgba(25, 41, 40, 0.8);
-}
-
-.cta-btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 77px;
-  width: 304px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 30px;
-  color: #505050;
-  text-decoration: none;
-  background-color: #fff;
-}
-
-.cta-btn :hover {
-  color: #949494;
 }
 
 .about-hero-container {
