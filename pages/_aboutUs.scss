@@ -145,24 +145,24 @@
 }
 
 .about-box-right-appear {
-opacity: 1;
-transform: translate(180px, -70px);
+    opacity: 1;
+    transform: translate(180px, -70px);
 }
 
 .about-box-left{
-position: relative;
-left: -10%;
-top: 3.5%;
-height: 300px;
-width: 300px;
-background: rgba(116, 162, 155, 0.51);
-opacity: 0;
-transition: 0.7s all ease-in-out;
+    position: relative;
+    left: -10%;
+    top: 3.5%;
+    height: 300px;
+    width: 300px;
+    background: rgba(116, 162, 155, 0.51);
+    opacity: 0;
+    transition: 0.7s all ease-in-out;
 }
 
 .about-box-left-appear {
-opacity: 1;
-transform: translate(-180px, -70px);
+    opacity: 1;
+    transform: translate(-180px, -70px);
 }
 
 .about-locations {
