@@ -1348,6 +1348,114 @@ nav ul {
   background-size: cover;
 }
 
+.location-new-york {
+  height: 30px;
+  width: 30px;
+  background-color: rgba(15, 53, 57, 0.659);
+  border-radius: 50%;
+  position: relative;
+  left: -334px;
+  top: 170px;
+  opacity: 0.7;
+}
+
+.location-los-angeles {
+  height: 30px;
+  width: 30px;
+  background-color: rgba(15, 53, 57, 0.659);
+  border-radius: 50%;
+  position: relative;
+  left: -520px;
+  top: 166px;
+  opacity: 0.7;
+}
+
+.location-cincinnati {
+  height: 30px;
+  width: 30px;
+  background-color: rgba(15, 53, 57, 0.659);
+  border-radius: 50%;
+  position: relative;
+  left: -380px;
+  top: 130px;
+  opacity: 0.7;
+}
+
+.location-bengaluru {
+  height: 30px;
+  width: 30px;
+  background-color: rgba(15, 53, 57, 0.659);
+  border-radius: 50%;
+  position: relative;
+  left: 270px;
+  top: 230px;
+  opacity: 0.7;
+}
+
+.location-hyderabad {
+  height: 30px;
+  width: 30px;
+  background-color: rgba(15, 53, 57, 0.659);
+  border-radius: 50%;
+  position: relative;
+  left: 250px;
+  top: 160px;
+  opacity: 0.7;
+}
+
+.location-chennai {
+  height: 30px;
+  width: 30px;
+  background-color: rgba(15, 53, 57, 0.659);
+  border-radius: 50%;
+  position: relative;
+  left: 290px;
+  top: 120px;
+  opacity: 0.7;
+}
+
+.location-paris {
+  height: 30px;
+  width: 30px;
+  background-color: rgba(15, 53, 57, 0.659);
+  border-radius: 50%;
+  position: relative;
+  left: -30px;
+  top: -40px;
+  opacity: 0.7;
+}
+
+.location-amsterdam {
+  height: 30px;
+  width: 30px;
+  background-color: rgba(15, 53, 57, 0.659);
+  border-radius: 50%;
+  position: relative;
+  left: -5px;
+  top: -105px;
+  opacity: 0.7;
+}
+
+.location-london {
+  height: 30px;
+  width: 30px;
+  background-color: rgba(15, 53, 57, 0.659);
+  border-radius: 50%;
+  position: relative;
+  left: -45px;
+  top: -135px;
+  opacity: 0.7;
+}
+
+.locations-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  font-style: normal;
+  color: #3d3d3d;
+  margin: 0;
+}
+
 .product-services-title {
   display: -webkit-box;
   display: -ms-flexbox;
