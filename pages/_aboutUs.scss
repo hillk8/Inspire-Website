@@ -188,6 +188,12 @@
     left: -334px;
     top: 170px;
     opacity: 0.7;
+    transition: 0.4s all ease-in-out;
+}
+
+.location-new-york:hover {
+    transform: scale(1.4);
+    opacity: 0.2;
 }
 
 .location-los-angeles {
@@ -199,6 +205,12 @@
     left: -520px;
     top: 166px;
     opacity: 0.7;
+    transition: 0.4s all ease-in-out;
+}
+
+.location-los-angeles:hover {
+    transform: scale(1.4);
+    opacity: 0.2;
 }
 
 .location-cincinnati {
@@ -210,6 +222,12 @@
     left: -380px;
     top: 130px;
     opacity: 0.7;
+    transition: 0.4s all ease-in-out;
+}
+
+.location-cincinnati:hover {
+    transform: scale(1.4);
+    opacity: 0.2;
 }
 
 .location-bengaluru {
@@ -221,6 +239,12 @@
     left: 270px;
     top: 230px;
     opacity: 0.7;
+    transition: 0.4s all ease-in-out;
+}
+
+.location-bengaluru:hover {
+    transform: scale(1.4);
+    opacity: 0.2;
 }
 
 .location-hyderabad {
@@ -232,6 +256,12 @@
     left: 250px;
     top: 160px;
     opacity: 0.7;
+    transition: 0.4s all ease-in-out;
+}
+
+.location-hyderabad:hover {
+    transform: scale(1.4);
+    opacity: 0.2;
 }
 
 .location-chennai {
@@ -243,6 +273,12 @@
     left: 290px;
     top: 120px;
     opacity: 0.7;
+    transition: 0.4s all ease-in-out;
+}
+
+.location-chennai:hover {
+    transform: scale(1.4);
+    opacity: 0.2;
 }
 
 .location-paris {
@@ -254,6 +290,12 @@
     left: -30px;
     top: -40px;
     opacity: 0.7;
+    transition: 0.4s all ease-in-out;
+}
+
+.location-paris:hover {
+    transform: scale(1.4);
+    opacity: 0.2;
 }
 
 .location-amsterdam {
@@ -265,6 +307,12 @@
     left: -5px;
     top: -105px;
     opacity: 0.7;
+    transition: 0.4s all ease-in-out;
+}
+
+.location-amsterdam:hover {
+    transform: scale(1.4);
+    opacity: 0.2;
 }
 
 .location-london {
@@ -276,6 +324,12 @@
     left: -45px;
     top: -135px;
     opacity: 0.7;
+    transition: 0.4s all ease-in-out;
+}
+
+.location-london:hover {
+    transform: scale(1.4);
+    opacity: 0.2;
 }
 
 .locations-title {
