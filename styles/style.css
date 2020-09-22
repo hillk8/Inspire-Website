@@ -876,6 +876,23 @@ nav ul {
   width: 534px;
   margin-top: 95px;
   margin-bottom: 44px;
+  overflow: hidden;
+}
+
+.product-bio-track img {
+  border: 1px solid #e2e2e2;
+  -webkit-box-shadow: 0px 0px 75px -40px rgba(0, 0, 0, 0.55);
+          box-shadow: 0px 0px 75px -40px rgba(0, 0, 0, 0.55);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+.product-bio-track img:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  opacity: 0.8;
 }
 
 .product-track-hide {
@@ -897,6 +914,23 @@ nav ul {
   width: 534px;
   margin-top: 95px;
   margin-bottom: 44px;
+  overflow: hidden;
+}
+
+.product-bio-reliable img {
+  border: 1px solid #e2e2e2;
+  -webkit-box-shadow: 0px 0px 75px -40px rgba(0, 0, 0, 0.55);
+          box-shadow: 0px 0px 75px -40px rgba(0, 0, 0, 0.55);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+.product-bio-reliable img:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  opacity: 0.8;
 }
 
 .product-reliable-hide {
@@ -917,6 +951,23 @@ nav ul {
   height: 411px;
   width: 534px;
   margin-bottom: 77px;
+  overflow: hidden;
+}
+
+.product-bio-everything img {
+  border: 1px solid #e2e2e2;
+  -webkit-box-shadow: 0px 0px 75px -40px rgba(0, 0, 0, 0.55);
+          box-shadow: 0px 0px 75px -40px rgba(0, 0, 0, 0.55);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+.product-bio-everything img:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  opacity: 0.8;
 }
 
 .product-everything-hide {
@@ -937,6 +988,23 @@ nav ul {
   height: 411px;
   width: 534px;
   margin-bottom: 77px;
+  overflow: hidden;
+}
+
+.product-bio-advanced img {
+  border: 1px solid #e2e2e2;
+  -webkit-box-shadow: 0px 0px 75px -40px rgba(0, 0, 0, 0.55);
+          box-shadow: 0px 0px 75px -40px rgba(0, 0, 0, 0.55);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+.product-bio-advanced img:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  opacity: 0.8;
 }
 
 .product-advanced-hide {
