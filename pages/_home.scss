@@ -19,6 +19,14 @@
     }
 }
 
+.hero-overlay {
+    height: 850px;
+    width: 1440px;
+    position: absolute;
+    //background: rgba(17, 82, 70, 0.73); 
+    background: linear-gradient(to right,  rgba(0, 66, 53, 6), rgba(0, 66, 53, 0.57), rgba(12, 81, 67, 0.45),rgba(24, 81, 70, 0.4));
+}
+
 .hero-headline {
     display: flex;
     justify-content: center;

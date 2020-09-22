@@ -1,3 +1,59 @@
+.products-hero-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 100vh;
+    background-image: url("../inspire-img/products-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    // @include breakpoint-down(small){
+    //     height: 70vh;
+    //     background-image: url("../inspire-img/hero-small.jpg");
+    // }
+
+    // @include breakpoint-down(xsmall){
+    //     height: 45vh;
+    //     background-image: url("../inspire-img/hero-small.jpg");
+    // }
+}
+
+.products-hero-overlay {
+    height: 850px;
+    width: 1440px;
+    position: absolute;
+    //background: rgba(17, 82, 70, 0.73); 
+    background: linear-gradient(to right,  rgba(0, 66, 53, 6), rgba(0, 66, 53, 0.57), rgba(12, 81, 67, 0.45),rgba(24, 81, 70, 0.4));
+}
+
+.products-hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: #E8E8E8;
+    z-index: 1;
+    width: 100vw;
+    height: 850px;
+    margin-left: -215px;
+    margin-top: -20px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 1s all ease-in-out;
+}
+
+.products-hero-text-appear {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
 .product-services-title {
     display: flex;
     flex-direction: column;

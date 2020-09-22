@@ -685,6 +685,14 @@ nav ul {
   }
 }
 
+.hero-overlay {
+  height: 850px;
+  width: 1440px;
+  position: absolute;
+  background: -webkit-gradient(linear, left top, right top, from(#004235), color-stop(rgba(0, 66, 53, 0.57)), color-stop(rgba(12, 81, 67, 0.45)), to(rgba(24, 81, 70, 0.4)));
+  background: linear-gradient(to right, #004235, rgba(0, 66, 53, 0.57), rgba(12, 81, 67, 0.45), rgba(24, 81, 70, 0.4));
+}
+
 .hero-headline {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1478,6 +1486,73 @@ nav ul {
   letter-spacing: 0;
   font-weight: 400;
   display: inline-block;
+}
+
+.products-hero-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 100vh;
+  background-image: url("../inspire-img/products-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.products-hero-overlay {
+  height: 850px;
+  width: 1440px;
+  position: absolute;
+  background: -webkit-gradient(linear, left top, right top, from(#004235), color-stop(rgba(0, 66, 53, 0.57)), color-stop(rgba(12, 81, 67, 0.45)), to(rgba(24, 81, 70, 0.4)));
+  background: linear-gradient(to right, #004235, rgba(0, 66, 53, 0.57), rgba(12, 81, 67, 0.45), rgba(24, 81, 70, 0.4));
+}
+
+.products-hero-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  color: #E8E8E8;
+  z-index: 1;
+  width: 100vw;
+  height: 850px;
+  margin-left: -215px;
+  margin-top: -20px;
+  opacity: 0;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+  -webkit-transition: 1s all ease-in-out;
+  transition: 1s all ease-in-out;
+}
+
+.products-hero-text-appear {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
 }
 
 .product-services-title {

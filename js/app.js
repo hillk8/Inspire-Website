@@ -44,3 +44,4 @@ animateElements(".about-mission", "about-mission-appear", "scroll");
 
 animateElements(".locations-container", "locations-container-appear", "scroll");
 
+animateElements(".products-hero-text", "products-hero-text-appear","load");
