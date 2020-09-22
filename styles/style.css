@@ -878,19 +878,6 @@ nav ul {
   margin-bottom: 44px;
 }
 
-.product-bio-track img:hover {
-  border: 1px solid #e2e2e2;
-  -webkit-box-shadow: 0px 0px 75px -40px rgba(0, 0, 0, 0.55);
-          box-shadow: 0px 0px 75px -40px rgba(0, 0, 0, 0.55);
-  -webkit-transition: -webkit-transform 0.3s ease-in-out;
-  transition: -webkit-transform 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
-  -webkit-transform: scale(1.016);
-          transform: scale(1.016);
-  opacity: 0.8;
-}
-
 .product-track-hide {
   opacity: 0;
   -webkit-transform: translateY(20px);
@@ -910,19 +897,6 @@ nav ul {
   width: 534px;
   margin-top: 95px;
   margin-bottom: 44px;
-}
-
-.product-bio-reliable img:hover {
-  border: 1px solid #e2e2e2;
-  -webkit-box-shadow: 0px 0px 75px -40px rgba(0, 0, 0, 0.55);
-          box-shadow: 0px 0px 75px -40px rgba(0, 0, 0, 0.55);
-  -webkit-transition: -webkit-transform 0.3s ease-in-out;
-  transition: -webkit-transform 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
-  -webkit-transform: scale(1.016);
-          transform: scale(1.016);
-  opacity: 0.8;
 }
 
 .product-reliable-hide {
@@ -945,19 +919,6 @@ nav ul {
   margin-bottom: 77px;
 }
 
-.product-bio-everything img:hover {
-  border: 1px solid #e2e2e2;
-  -webkit-box-shadow: 0px 0px 75px -40px rgba(0, 0, 0, 0.55);
-          box-shadow: 0px 0px 75px -40px rgba(0, 0, 0, 0.55);
-  -webkit-transition: -webkit-transform 0.3s ease-in-out;
-  transition: -webkit-transform 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
-  -webkit-transform: scale(1.016);
-          transform: scale(1.016);
-  opacity: 0.8;
-}
-
 .product-everything-hide {
   opacity: 0;
   -webkit-transform: translateY(20px);
@@ -976,19 +937,6 @@ nav ul {
   height: 411px;
   width: 534px;
   margin-bottom: 77px;
-}
-
-.product-bio-advanced img:hover {
-  border: 1px solid #e2e2e2;
-  -webkit-box-shadow: 0px 0px 75px -40px rgba(0, 0, 0, 0.55);
-          box-shadow: 0px 0px 75px -40px rgba(0, 0, 0, 0.55);
-  -webkit-transition: -webkit-transform 0.3s ease-in-out;
-  transition: -webkit-transform 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
-  -webkit-transform: scale(1.016);
-          transform: scale(1.016);
-  opacity: 0.8;
 }
 
 .product-advanced-hide {
@@ -1444,7 +1392,7 @@ nav ul {
   width: 60px;
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
-  text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.9);
+  text-shadow: 0px 1px 29px rgba(104, 104, 104, 0.4);
   background-color: #2d4b44;
   display: none;
   left: 40%;
