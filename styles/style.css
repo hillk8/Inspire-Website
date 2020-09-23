@@ -1505,7 +1505,7 @@ nav ul {
       -ms-flex-align: end;
           align-items: flex-end;
   height: 100vh;
-  background-image: url("../inspire-img/products-hero.jpg");
+  background-image: url("../inspire-img/products-hero-optimized.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
