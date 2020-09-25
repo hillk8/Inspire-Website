@@ -1572,7 +1572,7 @@ nav ul {
           align-items: flex-start;
   height: 1360px;
   background-color: #b9b9b9;
-  padding: 20px;
+  padding: 40px 0px;
 }
 
 .products-it {
@@ -1630,6 +1630,7 @@ nav ul {
   width: 400px;
   background-color: #ffffff;
   border: 1px solid green;
+  background-image: url(../inspire-img/placeholder400.png);
 }
 
 .products-core-image {
@@ -1652,6 +1653,7 @@ nav ul {
   width: 400px;
   background-color: #ffffff;
   border: 1px solid blue;
+  background-image: url(../inspire-img/placeholder400.png);
 }
 
 .products-core {
@@ -1674,6 +1676,7 @@ nav ul {
   width: 670px;
   background-color: #ffffff;
   border: 1px solid purple;
+  padding: 10px;
 }
 
 .products-core-headline {
@@ -1708,6 +1711,7 @@ nav ul {
   width: 670px;
   background-color: #ffffff;
   border: 1px solid orange;
+  padding: 10px;
 }
 
 .products-culture-headline {
@@ -1742,6 +1746,7 @@ nav ul {
   width: 400px;
   background-color: #ffffff;
   border: 1px solid yellow;
+  background-image: url(../inspire-img/placeholder400.png);
 }
 
 .product-services-title {
