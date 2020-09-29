@@ -1792,4 +1792,39 @@ nav ul {
 .product-services-list ul {
   list-style-type: none;
 }
+
+.pricing-custom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 400px;
+  width: 670px;
+  background-color: #ffffff;
+  border: 1px solid red;
+  padding: 10px;
+}
+
+.pricing-custom-headline {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 34px;
+}
+
+.pricing-custom-headline-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.4;
+}
 /*# sourceMappingURL=style.css.map */
