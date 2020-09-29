@@ -1,3 +1,14 @@
+.pricing-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 1360px;
+    background-color: #b9b9b9;
+    padding: 40px 0px;
+}
+
 .pricing-custom {
     display: flex;
     flex-direction: row;
@@ -17,6 +28,31 @@
 }
 
 .pricing-custom-headline-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.4;
+}
+
+.pricing-flat-fees {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 670px;
+    background-color: #ffffff;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.pricing-flat-fees-headline {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+}
+
+.pricing-flat-fees-headline-text {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 25px;
