@@ -45,3 +45,15 @@ animateElements(".about-mission", "about-mission-appear", "scroll");
 animateElements(".locations-container", "locations-container-appear", "scroll");
 
 animateElements(".products-hero-text", "products-hero-text-appear","load");
+
+animateElements(".products-it", "products-it-appear", "scroll");
+
+animateElements(".products-core-image", "products-core-image-appear", "scroll");
+
+animateElements(".products-culture", "products-culture-appear", "scroll");
+
+animateElements(".products-it-image", "products-it-image-appear", "scroll");
+
+animateElements(".products-core", "products-core-appear", "scroll");
+
+animateElements(".products-culture-image", "products-culture-image-appear", "scroll");
