@@ -1571,7 +1571,7 @@ nav ul {
       -ms-flex-align: start;
           align-items: flex-start;
   height: 1360px;
-  padding: 40px 0px;
+  padding: 40px 0px 0px 0px;
 }
 
 .products-it {
@@ -1940,5 +1940,70 @@ nav ul {
   font-weight: 400;
   font-size: 25px;
   line-height: 1.4;
+}
+
+.career-hero-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 850px;
+  width: 1410px;
+  margin: 120px 0px 0px 0px;
+  padding: 0;
+}
+
+.career-description {
+  margin-top: 180px;
+  padding: 0px 20px;
+  height: 850px;
+  width: 45%;
+}
+
+.career-description h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  color: #464646;
+}
+
+.career-description p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #464646;
+  font-size: 25px;
+  line-height: 1.4;
+}
+
+.divider {
+  background-color: #30635A;
+  height: 5px;
+  width: 552px;
+  margin-top: 110px;
+}
+
+.career-hero {
+  padding: 0px 20px;
+  background-image: url(../inspire-img/careers-hero.jpg);
+  background-repeat: no-repeat;
+  height: 850px;
+  width: 45%;
 }
 /*# sourceMappingURL=style.css.map */
