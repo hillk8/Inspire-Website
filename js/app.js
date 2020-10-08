@@ -57,3 +57,11 @@ animateElements(".products-it-image", "products-it-image-appear", "scroll");
 animateElements(".products-core", "products-core-appear", "scroll");
 
 animateElements(".products-culture-image", "products-culture-image-appear", "scroll");
+
+animateElements(".career-description", "career-description-appear", "load");
+
+animateElements(".career-hero", "career-hero-appear", "load");
+
+window.addEventListener("load", () => {
+    document.querySelector("body").classList.add("loaded"); 
+   });

@@ -1963,10 +1963,18 @@ nav ul {
 }
 
 .career-description {
-  margin-top: 180px;
+  margin-top: 210px;
+  margin-bottom: 200px;
   padding: 0px 20px;
   height: 850px;
   width: 45%;
+  opacity: 0;
+  -webkit-transition: 1.6s all ease-in-out;
+  transition: 1.6s all ease-in-out;
+}
+
+.career-description-appear {
+  opacity: 1;
 }
 
 .career-description h1 {
@@ -1992,11 +2000,41 @@ nav ul {
   line-height: 1.4;
 }
 
-.divider {
-  background-color: #30635A;
-  height: 5px;
-  width: 552px;
-  margin-top: 110px;
+.divider::after {
+  content: "";
+  position: absolute;
+  bottom: -1;
+  left: 0;
+  width: 45%;
+  height: 3.5px;
+  background: #4f8476;
+  z-index: 99999;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+}
+
+.divider2::after {
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+.loaded .divider::after {
+  -webkit-animation: scaleIn .6s ease-in 0.5s forwards;
+          animation: scaleIn .6s ease-in 0.5s forwards;
+}
+
+@-webkit-keyframes scaleIn {
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+
+@keyframes scaleIn {
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
 }
 
 .career-hero {
@@ -2005,5 +2043,16 @@ nav ul {
   background-repeat: no-repeat;
   height: 850px;
   width: 45%;
+  opacity: 0;
+  -webkit-transform: translateX(80px);
+          transform: translateX(80px);
+  -webkit-transition: 1s all ease-in-out;
+  transition: 1s all ease-in-out;
+}
+
+.career-hero-appear {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
 }
 /*# sourceMappingURL=style.css.map */
