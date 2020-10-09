@@ -57,7 +57,7 @@
   }
 
   .loaded .divider::after {
-    animation: scaleIn .6s ease-in 0.5s forwards;
+    animation: scaleIn .4s ease-in 0.3s forwards;
   }
   
   @keyframes scaleIn {
@@ -74,7 +74,7 @@
     width: 45%;
     opacity: 0;
     transform: translateX(80px);
-    transition: 1s all ease-in-out;
+    transition: .5s all ease-in-out;
 }
 
 .career-hero-appear {
